@@ -8,7 +8,20 @@ public class Program
 
     Console.WriteLine("Enter a word to see if it is a Palindrome:");
     string userInput = Console.ReadLine();
+    // string lowerCaseUserInput = userInput.ToLower();
+    // string spaceString = " ";
     string backwardsUserInput = "";
+    // List<string> removeSpaces = new List<string>{};
+
+    // for (int i = 0; i < lowerCaseUserInput.Length; i++)
+    // {
+    //   if (lowerCaseUserInput[i] == spaceString[0])
+    //   {
+    //     removeSpaces.Add(lowerCaseUserInput[i])
+    //     Console.WriteLine(removeSpaces);
+    //     // removeSpaces.Remove(" ");
+    //   }
+    // }
 
     for (int i = 0; i < userInput.Length; i++)
     {
